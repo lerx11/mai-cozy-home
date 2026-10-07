@@ -62,21 +62,21 @@ export default function Hero() {
           variants={item}
           className="mt-6 font-display text-4xl font-semibold leading-tight drop-shadow-sm sm:text-5xl md:text-6xl lg:text-7xl"
         >
-          {siteConfig.businessName}
+          {siteConfig.hero.title || siteConfig.businessName}
         </motion.h1>
 
         <motion.p
           variants={item}
           className="mt-4 font-display text-lg italic text-cream/90 md:text-2xl"
         >
-          {siteConfig.tagline}
+          {siteConfig.hero.subtitle || siteConfig.tagline}
         </motion.p>
 
         <motion.p
           variants={item}
           className="mt-6 max-w-xl text-sm leading-relaxed text-cream/80 md:text-base"
         >
-          {siteConfig.shortIntro}
+          {siteConfig.hero.description}
         </motion.p>
 
         <motion.div

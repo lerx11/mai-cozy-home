@@ -1,0 +1,119 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ============================================================
+   Sapa Mountain Lodge — Global styles
+   Warm, minimal, personal design system
+   ============================================================ */
+
+:root {
+  --background: #fff9f2; /* warm cream */
+  --foreground: #2d2d2d; /* ink */
+  --rice: #3b6b4a; /* deep forest green */
+  --gold: #c97b5a; /* muted terracotta */
+  --whatsapp: #25d366;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    /* Offset anchored sections so the sticky header doesn't overlap content */
+    scroll-padding-top: 5rem;
+  }
+
+  body {
+    background-color: var(--background);
+    color: var(--foreground);
+    font-family: var(--font-inter), system-ui, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4 {
+    font-family: var(--font-playfair), Georgia, serif;
+    letter-spacing: -0.01em;
+  }
+
+  /* Consistent, comfortable reading rhythm */
+  p {
+    line-height: 1.75;
+  }
+}
+
+@layer components {
+  /* Reusable container that respects mobile-first spacing */
+  .container-warm {
+    @apply mx-auto w-full max-w-7xl px-5 sm:px-8 lg:px-12;
+  }
+
+  /* Section vertical rhythm */
+  .section {
+    @apply py-20 md:py-28;
+  }
+
+  /* Section eyebrow / kicker label */
+  .eyebrow {
+    @apply inline-flex items-center gap-2 text-sm font-medium uppercase tracking-[0.18em] text-rice;
+  }
+
+  .eyebrow::before {
+    content: "";
+    @apply inline-block h-px w-8 bg-rice/60;
+  }
+
+  /* Buttons */
+  .btn {
+    @apply inline-flex items-center justify-center gap-2 rounded-full px-6 py-3 text-sm font-medium transition-all duration-300 focus:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-offset-cream;
+  }
+
+  .btn-gold {
+    @apply btn bg-gold text-cream shadow-soft hover:bg-gold/90 hover:shadow-lift;
+  }
+
+  .btn-green {
+    @apply btn bg-rice text-cream shadow-soft hover:bg-rice/90 hover:shadow-lift;
+  }
+
+  .btn-whatsapp {
+    @apply btn bg-whatsapp text-white shadow-soft hover:bg-whatsapp/90 hover:shadow-lift;
+  }
+
+  .btn-outline {
+    @apply btn border border-ink/15 bg-cream/40 text-ink backdrop-blur-sm hover:border-ink/30 hover:bg-cream;
+  }
+
+  /* Card surface used across tours, reviews, etc. */
+  .card-warm {
+    @apply rounded-3xl border border-ink/5 bg-white shadow-card;
+  }
+}
+
+@layer utilities {
+  /* Truncate to a fixed number of lines (used by tour short descriptions) */
+  .line-clamp-2 {
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+
+  .line-clamp-3 {
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+
+  /* Hide scrollbar for horizontal sliders while keeping scroll */
+  .no-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+}

@@ -19,8 +19,8 @@ const ph = (w, h, label) =>
 
 export const siteConfig = {
   // -------- Business identity --------
-  businessName: "Sapa Mountain Lodge",
-  tagline: "Nature, Comfort & Mountain Views",
+  businessName: "Mai's Cozy House",
+  tagline: "Rice field views and cozy comfort in Ta Van village",
   // Short blurb used in headers / SEO / footers
   shortIntro:
     "A family-run mountain lodge in the Sapa highlands offering comfortable stays, guided treks, and authentic cultural experiences.",
@@ -28,15 +28,15 @@ export const siteConfig = {
   // -------- Contact channels --------
   // TODO: confirm the correct WhatsApp display format (international, no "+").
   // WhatsApp is the primary contact method (email removed in favour of chat).
-  whatsappNumber: "+84358888888",
-  whatsappLink: "https://wa.me/84358888888",
-  address: "Sapa, Vietnam",
+  whatsappNumber: "+84989091761",
+  whatsappLink: "https://wa.me/84989091761",
+  address: "Ta Van Village, Sapa, Vietnam",
 
   // -------- Google Maps --------
   maps: {
-    link: "https://maps.google.com/?q=Sapa,+Vietnam",
+    link: "https://maps.app.goo.gl/...",
     displayText: "Get Directions",
-    embedUrl: "https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d25701.601003321026!2d103.84873989966243!3d22.337642308709597!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sru!2s!4v1791372263256!5m2!1sru!2s",
+    embedUrl: "https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d1128.320321470335!2d103.89479719334132!3d22.299834137639845!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sru!2s!4v1791374130033!5m2!1sru!2s",
   },
 
   // -------- Social profiles --------
@@ -54,9 +54,9 @@ export const siteConfig = {
   // -------- Booking.com rating badge --------
   // Visible text is just "Booking.com"; the href opens the full hotel page.
   booking: {
-    rating: "4.8",
-    reviewCount: "250",
-    link: "https://www.booking.com",
+    rating: "4.9",
+    reviewCount: "36",
+    link: "https://www.booking.com/hotel/vn/mais-cozy-house-ta-van-ricefield-view.en-gb.html",
     displayText: "Booking.com",
   },
 
@@ -81,7 +81,7 @@ export const siteConfig = {
     title: "Stay With Us",
     subtitle: "Experience warm highland hospitality",
     description:
-      "Our lodge features comfortable rooms with stunning mountain views. Wake up to sweeping vistas of misty peaks and rice terraces, and enjoy hearty home-cooked meals prepared by our family.",
+      "Our traditional Giay house is nestled in the heart of Ta Van village, surrounded by breathtaking rice terraces. Each room is thoughtfully designed with high-quality mattresses, soft linens, and a heating system for your comfort. Wake up to stunning rice field views, enjoy breakfast on the terrace, and gather by the fireplace in the evening. With 20 years of hospitality experience, your host U Mai will make you feel at home.",
     priceRange: "$16 - $55 per night",
     amenities: [
       { icon: "mountain", label: "Mountain view" },
@@ -118,10 +118,10 @@ export const siteConfig = {
   about: {
     eyebrow: "Our Story",
     title: "A family home above the valley",
-    subtitle:
-      "We are a local family sharing our mountain, our trails, and our traditions with travellers who want more than a postcard.",
+    subtitle: "A warm welcome from U Mai",
     story: [
-      "Nestled in the mountains of northern Vietnam, our family-run lodge has welcomed travelers from around the world for over a decade. We offer comfortable rooms with breathtaking views, authentic local cuisine, and guided treks through the most beautiful landscapes of Sapa. Whether you're seeking adventure or relaxation, our team is here to make your stay unforgettable.",
+      "Hello, my name is U Mai, and I am 61 years old. I built this home with the desire to welcome guests to Ta Van, where they can experience the beauty and tranquility of the village. With 20 years of experience in the hospitality industry, this is my first time establishing my own accommodation. Currently, I work as a chef at a resort in Sapa in the mornings, and in the afternoons, I can prepare delicious meals for you to enjoy. I look forward to welcoming you to our beautiful home.",
+      "Our home is nestled deep in Ta Van village, surrounded by breathtaking terraced rice fields. It is truly a retreat from the outside world, offering one of the most stunning rice field views in Ta Van. This traditional Giay house has been thoughtfully redesigned to be both elegant and comfortable. At its heart is a fireplace, creating a warm gathering space where guests can connect. Though the rooms are small, I have paid great attention to the details — high-quality mattresses, soft blankets, premium linens, plush pillows, and a heating system — to ensure you have the most restful sleep after a long journey. One of our guests once said: 'They came here for an authentic local experience but received both five-star hospitality and meals prepared by a five-star chef.' I believe you will have an unforgettable experience here!",
     ],
     mission:
       "To share the beauty of Sapa with travelers while supporting our local community.",
@@ -427,32 +427,28 @@ export const siteConfig = {
   // TODO: replace with verified reviews (e.g. Google, TripAdvisor).
   reviews: [
     {
-      name: "Sarah",
-      country: "UK",
+      name: "Alex",
+      country: "United Kingdom",
       rating: 5,
-      date: "March 2026",
-      text: "A wonderful stay with incredible mountain views. The food was delicious and the trekking was well organised. Highly recommended!",
+      text: "Everything about our stay was amazing. Mai is such a warm and generous host, her food was some of the best we ate on our whole trip, and her house is indeed cozy and in such a beautiful setting!",
     },
     {
-      name: "Michael",
-      country: "Australia",
-      rating: 5,
-      date: "February 2026",
-      text: "The perfect base for exploring Sapa. Comfortable rooms, friendly staff, and the guided treks were the highlight of our trip.",
-    },
-    {
-      name: "Anna",
+      name: "Jule",
       country: "Germany",
       rating: 5,
-      date: "January 2026",
-      text: "Lovely family-run lodge. We felt at home from the moment we arrived and the views from our room were breathtaking.",
+      text: "Absolute recommendation. It is the last house in the whole village so it is really the best view you can get. If you want a nature, rice field experience, go there.",
     },
     {
-      name: "Tom",
-      country: "USA",
+      name: "Damien",
+      country: "France",
       rating: 5,
-      date: "December 2025",
-      text: "Great value and a truly relaxing stay. The team went above and beyond to make our visit special.",
+      text: "Mai is so nice, you feel at home at the first second, in the middle of rice fields. Her garden is full of flowers and different colors. And the delicious dinner — wow!",
+    },
+    {
+      name: "Natalia",
+      country: "Poland",
+      rating: 5,
+      text: "Beautiful location and house, very kind host, comfortable bed, clean room, great breakfast, and a lovely cat that stole our hearts.",
     },
   ],
 

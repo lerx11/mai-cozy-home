@@ -144,6 +144,10 @@ export const siteConfig = {
 
   // -------- Hero --------
   hero: {
+    title: "Mai's Cozy House",
+    subtitle: "Rice field views in the heart of Ta Van village",
+    description:
+      "A traditional Giay house surrounded by rice terraces — your cozy retreat in Sapa.",
     backgroundImage: "/images/hero/hero-bg.jpeg",
   },
 

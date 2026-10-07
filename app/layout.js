@@ -1,18 +1,18 @@
-import { Playfair_Display, Inter } from "next/font/google";
+import { Fraunces, Manrope } from "next/font/google";
 import "./globals.css";
 
-// Google Fonts: Playfair Display for headings, Inter for body text.
-const playfair = Playfair_Display({
+// Google Fonts: Fraunces for headings, Manrope for body text.
+const fraunces = Fraunces({
   subsets: ["latin"],
   display: "swap",
-  variable: "--font-playfair",
+  variable: "--font-fraunces",
   weight: ["500", "600", "700"],
 });
 
-const inter = Inter({
+const manrope = Manrope({
   subsets: ["latin"],
   display: "swap",
-  variable: "--font-inter",
+  variable: "--font-manrope",
   weight: ["400", "500", "600"],
 });
 
@@ -50,7 +50,7 @@ export const viewport = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en" className={`${playfair.variable} ${inter.variable}`}>
+    <html lang="en" className={`${fraunces.variable} ${manrope.variable}`}>
       <body className="bg-cream text-ink font-body antialiased">{children}</body>
     </html>
   );

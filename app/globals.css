@@ -8,10 +8,11 @@
    ============================================================ */
 
 :root {
-  --background: #fff9f2; /* warm cream */
-  --foreground: #2d2d2d; /* ink */
-  --rice: #3b6b4a; /* deep forest green */
-  --gold: #c97b5a; /* muted terracotta */
+  --background: #faf7f2; /* warm cream */
+  --foreground: #2b2118; /* dark warm brown */
+  --rice: #7a2e3b; /* deep burgundy */
+  --gold: #a85751; /* soft brick */
+  --sand: #e8d5c4; /* light sand */
   --whatsapp: #25d366;
 }
 
@@ -25,7 +26,7 @@
   body {
     background-color: var(--background);
     color: var(--foreground);
-    font-family: var(--font-inter), system-ui, sans-serif;
+    font-family: var(--font-manrope), system-ui, sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
   }
@@ -34,7 +35,7 @@
   h2,
   h3,
   h4 {
-    font-family: var(--font-playfair), Georgia, serif;
+    font-family: var(--font-fraunces), Georgia, serif;
     letter-spacing: -0.01em;
   }
 
@@ -71,11 +72,11 @@
   }
 
   .btn-gold {
-    @apply btn bg-gold text-cream shadow-soft hover:bg-gold/90 hover:shadow-lift;
+    @apply btn bg-rice text-cream shadow-soft hover:bg-gold hover:shadow-lift;
   }
 
   .btn-green {
-    @apply btn bg-rice text-cream shadow-soft hover:bg-rice/90 hover:shadow-lift;
+    @apply btn bg-rice text-cream shadow-soft hover:bg-gold hover:shadow-lift;
   }
 
   .btn-whatsapp {

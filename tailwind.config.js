@@ -9,16 +9,17 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        // Warm, natural palette inspired by Sapa rice fields and mountain forests
-        cream: "#FFF9F2", // page background
-        ink: "#2D2D2D", // primary text
-        rice: "#3B6B4A", // deep forest green (primary brand)
-        gold: "#C97B5A", // muted terracotta accent
+        // Warm, elegant palette inspired by Mai's Cozy House in Ta Van
+        cream: "#FAF7F2", // warm cream page background
+        ink: "#2B2118", // dark warm brown (primary text)
+        rice: "#7A2E3B", // deep burgundy (primary accent)
+        gold: "#A85751", // soft brick (secondary / hover states)
+        sand: "#E8D5C4", // light sand (highlight)
         whatsapp: "#25D366", // WhatsApp brand green
       },
       fontFamily: {
-        display: ["var(--font-playfair)", "serif"],
-        body: ["var(--font-inter)", "sans-serif"],
+        display: ["var(--font-fraunces)", "serif"],
+        body: ["var(--font-manrope)", "sans-serif"],
       },
       boxShadow: {
         soft: "0 10px 30px -12px rgba(45, 45, 45, 0.15)",

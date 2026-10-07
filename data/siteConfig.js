@@ -227,6 +227,7 @@ export const siteConfig = {
         "/images/tours/hmong-village/1.jpeg",
         "/images/tours/hmong-village/2.jpeg",
         "/images/tours/hmong-village/3.jpeg",
+        "/images/tours/hmong-village/4.jpeg",
       ],
     },
     {
@@ -299,6 +300,7 @@ export const siteConfig = {
         "/images/tours/herbal-trekking/1.jpeg",
         "/images/tours/herbal-trekking/2.jpeg",
         "/images/tours/herbal-trekking/3.jpeg",
+        "/images/tours/herbal-trekking/4.jpeg",
       ],
     },
     {
@@ -393,31 +395,101 @@ export const siteConfig = {
       images: [
         "/images/tours/2d1n-combo/1.jpeg",
         "/images/tours/2d1n-combo/2.jpeg",
-        "/images/tours/2d1n-combo/3.jpeg",
+        "/images/tours/2d1n-combo/3.jpg",
+        "/images/tours/2d1n-combo/4.jpeg",
+        "/images/tours/2d1n-combo/5.jpeg",
+      ],
+    },
+    {
+      slug: "motorbike-tour",
+      name: "Motorbike Discovery",
+      duration: "1 Day",
+      difficulty: "Easy",
+      price: "$45",
+      priceNote: "per person",
+      shortDescription:
+        "Explore Sapa's mountains and villages by motorbike",
+      fullDescription:
+        "Hop on a motorbike and ride the winding roads that wind through the terraced rice fields of the Sapa valley. With your local guide leading the way, you will pass through traditional villages, stop at quiet viewpoints overlooking the mountains, and ride along the valley floor to discover a side of the highlands that surrounds Mai's Cozy House. This relaxed, easy-paced ride is perfect for those who want to cover more ground while still soaking in the scenery and local culture.",
+      highlights: [
+        "Ride through terraced rice fields and mountain roads",
+        "Visit traditional villages along the valley",
+        "Stop at panoramic viewpoints overlooking Sapa",
+        "Travel with a local guide who knows the area",
+        "A relaxed way to explore the highlands",
+      ],
+      itinerary: [
+        {
+          time: "9:00 AM",
+          title: "Meet your guide at Mai's Cozy House",
+        },
+        {
+          time: "9:30 AM",
+          title: "Pick up your motorbike and safety briefing",
+        },
+        {
+          time: "10:00 AM",
+          title: "Ride along the terraced rice fields",
+        },
+        {
+          time: "11:00 AM",
+          title: "Stop at a panoramic mountain viewpoint",
+        },
+        {
+          time: "12:30 PM",
+          title: "Lunch in a local village",
+        },
+        {
+          time: "1:30 PM",
+          title: "Visit traditional mountain villages",
+        },
+        {
+          time: "3:00 PM",
+          title: "Return ride through the valley",
+        },
+        {
+          time: "4:00 PM",
+          title: "Arrive back at Mai's Cozy House",
+        },
+      ],
+      included: [
+        "Local guide & motorbike",
+        "Helmet and safety gear",
+        "Home-cooked lunch",
+        "Bottled water",
+        "Hotel pickup from Mai's Cozy House",
+      ],
+      notIncluded: [
+        "Personal expenses",
+        "Travel insurance",
+        "Tips for guide",
+      ],
+      meetingPoint: "Mai's Cozy House, Ta Van Village",
+      startTime: "9:00 AM",
+      endTime: "4:00 PM",
+      images: [
+        "/images/tours/motorbike-tour/1.jpg",
+        "/images/tours/motorbike-tour/2.jpeg",
+        "/images/tours/motorbike-tour/3.jpg",
+        "/images/tours/motorbike-tour/4.jpg",
+        "/images/tours/motorbike-tour/5.jpeg",
+        "/images/tours/motorbike-tour/6.jpeg",
       ],
     },
   ],
 
   // -------- Gallery (masonry grid) --------
   gallery: [
-    // 3 gallery photos
-    { src: "/images/gallery/photo1.jpeg", alt: "Sapa rice terraces" },
-    { src: "/images/gallery/photo2.jpeg", alt: "Local village" },
-    { src: "/images/gallery/photo3.jpeg", alt: "Traditional herbal bath" },
-    // 3 photos from each tour
-    { src: "/images/tours/hmong-village/1.jpeg", alt: "Village trekking route" },
-    { src: "/images/tours/hmong-village/2.jpeg", alt: "Traditional village houses" },
-    { src: "/images/tours/hmong-village/3.jpeg", alt: "Village panorama" },
-    { src: "/images/tours/herbal-trekking/1.jpeg", alt: "Herbal trek through the mountains" },
-    { src: "/images/tours/herbal-trekking/2.jpeg", alt: "Forest herbs" },
-    { src: "/images/tours/herbal-trekking/3.jpeg", alt: "Mountain village valley" },
-    { src: "/images/tours/2d1n-combo/1.jpeg", alt: "Terraced rice fields" },
-    { src: "/images/tours/2d1n-combo/2.jpeg", alt: "Mountain valley" },
-    { src: "/images/tours/2d1n-combo/3.jpeg", alt: "Cooking class at the lodge" },
-    // 3 room photos
-    { src: "/images/rooms/room-1.jpeg", alt: "Room at Sapa Mountain Lodge" },
-    { src: "/images/rooms/room-2.jpeg", alt: "Room with mountain view" },
-    { src: "/images/rooms/room-3.jpeg", alt: "Comfortable bed with warm linens" },
+    { src: "/images/gallery/photo-1.jpeg", alt: "Mai's Cozy House - rice field view" },
+    { src: "/images/gallery/photo-2.jpeg", alt: "Traditional Giay house in Ta Van" },
+    { src: "/images/gallery/photo-3.jpeg", alt: "Mountain view from the terrace" },
+    { src: "/images/gallery/photo-4.jpeg", alt: "Cozy interior with fireplace" },
+    { src: "/images/gallery/photo-5.jpeg", alt: "Garden with flowers" },
+    { src: "/images/gallery/photo-6.jpeg", alt: "Rice terraces at sunrise" },
+    { src: "/images/gallery/photo-7.jpeg", alt: "Local village life" },
+    { src: "/images/gallery/photo-8.jpeg", alt: "Mai's home-cooked meal" },
+    { src: "/images/gallery/photo-9.jpeg", alt: "Peaceful mountain retreat" },
+    { src: "/images/gallery/photo-10.jpeg", alt: "Ta Van village view" },
   ],
 
   // -------- Guest reviews --------

@@ -36,7 +36,7 @@ export const siteConfig = {
   maps: {
     link: "https://maps.app.goo.gl/...",
     displayText: "Get Directions",
-    embedUrl: "https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d1128.320321470335!2d103.89479719334132!3d22.299834137639845!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sru!2s!4v1791374130033!5m2!1sru!2s",
+    embedUrl: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3691.4231014525612!2d103.89390127585865!3d22.299832842911247!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x36cd477788b8272d%3A0xd350c7c4c82d5720!2sMai's%20Cozy%20House!5e0!3m2!1sru!2s!4v1791789477310!5m2!1sru!2s",
   },
 
   // -------- Social profiles --------
@@ -73,6 +73,38 @@ export const siteConfig = {
       "Bicycle & motorbike rental",
     ],
   },
+
+  // -------- Room types (from Booking) --------
+  roomTypes: [
+    {
+      name: "Garden View King Room",
+      description:
+        "Cozy room with a king-size bed and an extra-large double bed, overlooking the garden. Perfect for couples.",
+      guests: 2,
+      image: "/images/rooms/room-1.jpeg",
+    },
+    {
+      name: "Mountain View Quad Room",
+      description:
+        "Spacious room with two extra-large double beds and stunning mountain views. Ideal for families or groups.",
+      guests: 4,
+      image: "/images/rooms/room-2.jpeg",
+    },
+    {
+      name: "Twin King Room",
+      description:
+        "Comfortable room with two king-size beds, perfect for friends or families travelling together.",
+      guests: 4,
+      image: "/images/rooms/room-3.jpeg",
+    },
+    {
+      name: "Four-Bedroom House",
+      description:
+        "The entire traditional Giay house — four bedrooms, fireplace, garden and rice field views. Perfect for large groups.",
+      guests: 12,
+      image: "/images/rooms/room-4.jpeg",
+    },
+  ],
 
   // -------- Stay With Us section --------
   // Detailed homestay content for the dedicated home-page section.
@@ -492,6 +524,47 @@ export const siteConfig = {
     { src: "/images/gallery/photo-8.jpeg", alt: "Mai's home-cooked meal" },
     { src: "/images/gallery/photo-9.jpeg", alt: "Peaceful mountain retreat" },
     { src: "/images/gallery/photo-10.jpeg", alt: "Ta Van village view" },
+    { src: "/images/gallery/photo-11.jpg", alt: "Gallery photo 11" },
+    { src: "/images/gallery/photo-12.jpg", alt: "Gallery photo 12" },
+    { src: "/images/gallery/photo-13.jpg", alt: "Gallery photo 13" },
+    { src: "/images/gallery/photo-14.jpg", alt: "Gallery photo 14" },
+    { src: "/images/gallery/photo-15.jpg", alt: "Gallery photo 15" },
+    { src: "/images/gallery/photo-16.jpg", alt: "Gallery photo 16" },
+    { src: "/images/gallery/photo-17.jpg", alt: "Gallery photo 17" },
+    { src: "/images/gallery/photo-18.jpg", alt: "Gallery photo 18" },
+    { src: "/images/gallery/photo-19.jpg", alt: "Gallery photo 19" },
+    { src: "/images/gallery/photo-20.jpg", alt: "Gallery photo 20" },
+    { src: "/images/gallery/photo-21.jpg", alt: "Gallery photo 21" },
+    { src: "/images/gallery/photo-22.jpg", alt: "Gallery photo 22" },
+    { src: "/images/gallery/photo-23.jpg", alt: "Gallery photo 23" },
+    { src: "/images/gallery/photo-24.jpg", alt: "Gallery photo 24" },
+    { src: "/images/gallery/photo-25.jpg", alt: "Gallery photo 25" },
+    { src: "/images/gallery/photo-26.jpg", alt: "Gallery photo 26" },
+    { src: "/images/gallery/photo-27.jpg", alt: "Gallery photo 27" },
+    { src: "/images/gallery/photo-28.jpg", alt: "Gallery photo 28" },
+    { src: "/images/gallery/photo-29.jpg", alt: "Gallery photo 29" },
+    { src: "/images/gallery/photo-30.jpg", alt: "Gallery photo 30" },
+    { src: "/images/gallery/photo-31.jpg", alt: "Gallery photo 31" },
+    { src: "/images/gallery/photo-32.jpg", alt: "Gallery photo 32" },
+    { src: "/images/gallery/photo-33.jpg", alt: "Gallery photo 33" },
+    { src: "/images/gallery/photo-34.jpg", alt: "Gallery photo 34" },
+    { src: "/images/gallery/photo-35.jpg", alt: "Gallery photo 35" },
+    { src: "/images/gallery/photo-36.jpg", alt: "Gallery photo 36" },
+    { src: "/images/gallery/photo-37.jpg", alt: "Gallery photo 37" },
+    { src: "/images/gallery/photo-38.jpg", alt: "Gallery photo 38" },
+    { src: "/images/gallery/photo-39.jpg", alt: "Gallery photo 39" },
+    { src: "/images/gallery/photo-40.jpg", alt: "Gallery photo 40" },
+    { src: "/images/gallery/photo-41.jpg", alt: "Gallery photo 41" },
+    { src: "/images/gallery/photo-42.jpg", alt: "Gallery photo 42" },
+    { src: "/images/gallery/photo-43.jpg", alt: "Gallery photo 43" },
+    { src: "/images/gallery/photo-44.jpg", alt: "Gallery photo 44" },
+    { src: "/images/gallery/photo-45.jpg", alt: "Gallery photo 45" },
+    { src: "/images/gallery/photo-46.jpg", alt: "Gallery photo 46" },
+    { src: "/images/gallery/photo-47.jpg", alt: "Gallery photo 47" },
+    { src: "/images/gallery/photo-48.jpg", alt: "Gallery photo 48" },
+    { src: "/images/gallery/photo-49.jpg", alt: "Gallery photo 49" },
+    { src: "/images/gallery/photo-50.jpg", alt: "Gallery photo 50" },
+    { src: "/images/gallery/photo-51.jpg", alt: "Gallery photo 51" },
   ],
 
   // -------- Guest reviews --------

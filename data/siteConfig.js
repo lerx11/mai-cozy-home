@@ -42,9 +42,9 @@ export const siteConfig = {
   // -------- Social profiles --------
   // TODO: replace "#" with the real profile URLs.
   socialLinks: {
-    instagram: "#",
-    facebook: "#",
-    tiktok: "#",
+    instagram: "https://www.instagram.com/trinh.t.mai",
+    facebook: "https://www.facebook.com/trinh.t.mai",
+    tiktok: "https://www.tiktok.com/@trinhthithanhmai",
   },
 
   // -------- Reputation --------
@@ -77,32 +77,60 @@ export const siteConfig = {
   // -------- Room types (from Booking) --------
   roomTypes: [
     {
-      name: "Garden View King Room",
+      name: "Room 1 – Double King",
       description:
-        "Cozy room with a king-size bed and an extra-large double bed, overlooking the garden. Perfect for couples.",
+        "Spacious room with two king-size beds and rice field views. Perfect for families or groups.",
+      guests: 4,
+      price: "$37 per night",
+      image: "/images/rooms/room1-5.jpg",
+      images: [
+        "/images/rooms/room1-5.jpg",
+        "/images/rooms/room1-6.jpg",
+        "/images/rooms/room1-7.jpg",
+        "/images/rooms/room1-8.jpg",
+      ],
+    },
+    {
+      name: "Room 2 – Double King",
+      description:
+        "Comfortable room with two king-size beds, ideal for friends or families travelling together.",
+      guests: 4,
+      price: "$32 per night",
+      image: "/images/rooms/room2-1.jpg",
+      images: [
+        "/images/rooms/room2-1.jpg",
+        "/images/rooms/room2-2.jpg",
+        "/images/rooms/room2-3.jpg",
+        "/images/rooms/room2-4.jpg",
+      ],
+    },
+    {
+      name: "Room 3 – King",
+      description:
+        "Cozy room with one king-size bed, perfect for couples.",
       guests: 2,
-      image: "/images/rooms/room-1.jpeg",
+      price: "$20 per night",
+      image: "/images/rooms/room3-1.jpg",
+      images: [
+        "/images/rooms/room3-1.jpg",
+        "/images/rooms/room3-2.jpg",
+        "/images/rooms/room3-3.jpg",
+        "/images/rooms/room3-4.jpg",
+      ],
     },
     {
-      name: "Mountain View Quad Room",
+      name: "Room 4 – King",
       description:
-        "Spacious room with two extra-large double beds and stunning mountain views. Ideal for families or groups.",
-      guests: 4,
-      image: "/images/rooms/room-2.jpeg",
-    },
-    {
-      name: "Twin King Room",
-      description:
-        "Comfortable room with two king-size beds, perfect for friends or families travelling together.",
-      guests: 4,
-      image: "/images/rooms/room-3.jpeg",
-    },
-    {
-      name: "Four-Bedroom House",
-      description:
-        "The entire traditional Giay house — four bedrooms, fireplace, garden and rice field views. Perfect for large groups.",
-      guests: 12,
-      image: "/images/rooms/room-4.jpeg",
+        "Bright room with one king-size bed, ideal for solo travellers or couples.",
+      guests: 2,
+      price: "$24 per night",
+      image: "/images/rooms/room4-1.jpg",
+      images: [
+        "/images/rooms/room4-1.jpg",
+        "/images/rooms/room4-2.jpg",
+        "/images/rooms/room4-3.jpg",
+        "/images/rooms/room4-4.jpg",
+      ],
     },
   ],
 

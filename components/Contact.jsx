@@ -116,7 +116,7 @@ export default function Contact() {
                 </p>
                 <div className="flex min-h-0 flex-1 overflow-hidden rounded-xl border border-ink/10 bg-rice/10">
                   <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3691.46151840622!2d103.89562699999999!3d22.2983789!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x36cd470db32c8e35%3A0x762527ed105c3275!2sSapa%20Mountain%20Lodge!5e0!3m2!1sru!2s!4v1787077070665!5m2!1sru!2s"
+                    src={siteConfig.maps.embedUrl}
                     width="600"
                     height="450"
                     loading="lazy"

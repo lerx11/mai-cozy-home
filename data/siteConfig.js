@@ -62,8 +62,8 @@ export const siteConfig = {
 
   // -------- Accommodation (homestay rooms) --------
   rooms: {
-    count: 20,
-    priceRange: "$16 - $55 per night",
+    count: 4,
+    priceRange: "$21 - $22 per night",
     amenities: [
       "Mountain & rice terrace views",
       "Private and dorm options",
@@ -114,7 +114,7 @@ export const siteConfig = {
     subtitle: "Experience warm highland hospitality",
     description:
       "Our traditional Giay house is nestled in the heart of Ta Van village, surrounded by breathtaking rice terraces. Each room is thoughtfully designed with high-quality mattresses, soft linens, and a heating system for your comfort. Wake up to stunning rice field views, enjoy breakfast on the terrace, and gather by the fireplace in the evening. With 20 years of hospitality experience, your host U Mai will make you feel at home.",
-    priceRange: "$16 - $55 per night",
+    priceRange: "$21 - $22 per night",
     amenities: [
       { icon: "mountain", label: "Mountain view" },
       { icon: "wifi", label: "Free WiFi" },
